@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev10_Net40_Mvc4", "Dev10_Net40_Mvc4\Dev10_Net40_Mvc4.csproj", "{508C7438-EF74-4F4C-8C85-DA391827CDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev10_Net40_Mvc4.Tests", "Dev10_Net40_Mvc4.Tests\Dev10_Net40_Mvc4.Tests.csproj", "{234433DE-A01D-4496-BC51-D78BDFB1BCD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C895F3B5-B7D5-428F-B897-7AD4EAD0BBAC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508C7438-EF74-4F4C-8C85-DA391827CDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508C7438-EF74-4F4C-8C85-DA391827CDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508C7438-EF74-4F4C-8C85-DA391827CDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508C7438-EF74-4F4C-8C85-DA391827CDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234433DE-A01D-4496-BC51-D78BDFB1BCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234433DE-A01D-4496-BC51-D78BDFB1BCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234433DE-A01D-4496-BC51-D78BDFB1BCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234433DE-A01D-4496-BC51-D78BDFB1BCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
